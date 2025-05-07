@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>フジデン総設</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="l-header js-header">
+      <div class="l-header__wrap">
+        <div class="l-header__logo">
+          <a href="index.html">
+            <img src="images/header/logo.png" alt="" />
+          </a>
+        </div>
+        <!-- /.l-header__logo -->
+
+        <nav class="l-header__nav">
+          <ul class="l-header__menu">
+            <li><a href="index.html">ホーム</a></li>
+            <li class="c-mega-menu">
+              <a href="#" class="c-mega-menu__button">サービス内容</a>
+              <div class="c-mega-menu__wrap">
+                <p class="c-mega-menu__title">サービス一覧</p>
+                <!-- /.c-mega-menu__title -->
+                <ul class="c-mega-menu__list">
+                  <li>
+                    <a href="reform.html">
+                      <img src="images/sample.jpg" alt="" />
+                      <span>住宅リフォーム</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="electronic.html">
+                      <img src="images/sample.jpg" alt="" />
+                      <span>家電販売・取付</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="waterwork.html">
+                      <img src="images/sample.jpg" alt="" />
+                      <span>各種工事・施工</span>
+                    </a>
+                  </li>
+                </ul>
+                <!-- /.c-mega-menu__list -->
+              </div>
+              <!-- /.c-mega-menu__wrap -->
+            </li>
+            <li><a href="works.html">施工事例</a></li>
+            <li><a href="company.html">会社案内</a></li>
+            <li><a href="recruit.html">採用情報</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+          </ul>
+          <!-- /.l-header__menu -->
+        </nav>
+        <button
+          type="button"
+          class="c-hamburger js-btn"
+          aria-label="Navigation"
+        >
+          <span class="c-hamburger__line"></span
+          ><!-- /.c-hamburger__line --></button
+        ><!-- /.c-hamburger -->
+      </div>
+      <!-- /.l-header__wrap -->
+    </header>
+    <!-- /.l-header -->
+
+    <main>
+      <div class="l-page-title">
+        <div class="l-inner">
+          <h1>お問い合わせ</h1>
+        </div>
+        <!-- /.l-inner -->
+      </div>
+      <!-- /.l-page-title -->
+
+      <div class="l-block">
+        <div class="l-inner">
+          <div class="p-contact__body">
+            <div class="p-contact__lead">
+              <p>
+                ご質問・ご相談、お見積もりなど、お気軽にお問い合わせください。
+              </p>
+              <p>お急ぎの方はお電話ください。</p>
+            </div>
+            <!-- /.p-contact__lead -->
+
+            <div class="p-contact__tel">
+              <a href="tel:0197-63-3626"><small>tel. </small>0197-63-3626</a>
+              <span>受付時間: 9:00〜18:00（日曜定休）</span>
+            </div>
+            <!-- /.p-contact__tel -->
+
+            <div class="p-contact__lead">
+              <p>LINEでのお問い合わせは、こちらから。</p>
+            </div>
+            <!-- /.p-contact__lead -->
+
+            <div class="c-line c-line--left">
+              <a href="" class="c-line__link">LINEでお問い合わせ</a>
+            </div>
+            <!-- /.c-line -->
+
+            <div class="p-contact__lead">
+              <p>
+                メールでのお問い合わせは、下記フォームへ必要事項をご記入いただき送信してください。
+              </p>
+              <p>※<span class="require">*</span>が付いている項目は必須です。</p>
+            </div>
+            <!-- /.p-contact__lead -->
+
+            <div class="p-contact__form">
+              <div class="c-form">
+                <table class="contactTable">
+                  <tbody>
+                    <tr>
+                      <th>
+                        <label for="company" class="inputLabel"
+                          >会社名・屋号</label
+                        >
+                      </th>
+                      <td>
+                        <div class="inputField">
+                          <input type="text" id="name" name="name" />
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        <label for="company" class="inputLabel"
+                          >お名前<span class="require">*</span></label
+                        >
+                      </th>
+                      <td>
+                        <div class="inputField">
+                          <input type="text" id="name" name="name" />
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th>
+                        <label for="email" class="inputLabel"
+                          >メールアドレス<span class="require">*</span>
+                        </label>
+                      </th>
+                      <td>
+                        <div class="inputField">
+                          <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            required
+                          />
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        <label for="email" class="inputLabel"
+                          >電話番号<span class="require">*</span>
+                        </label>
+                      </th>
+                      <td>
+                        <div class="inputField">
+                          <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            required
+                          />
+                        </div>
+                      </td>
+                    </tr>
+
+                    <tr>
+                      <th>
+                        <label for="contact_msg" class="inputLabel"
+                          >お問い合わせ内容<span class="require">*</span>
+                        </label>
+                      </th>
+                      <td>
+                        <div class="inputField">
+                          <textarea
+                            name="contact_msg"
+                            id="contact_msg"
+                            cols="30"
+                            rows="10"
+                            required
+                          ></textarea>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <div class="privacyBox">
+                  <p>
+                    <a
+                      href="http://www.sendai-lang.com/pdf/personal.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      >プライバシーポリシー</a
+                    >に同意して、送信してください。
+                  </p>
+                </div>
+
+                <div class="formBtns">
+                  <button class="buttonAction">この内容で送信する</button>
+                </div>
+              </div>
+              <!-- /.c-form -->
+            </div>
+            <!-- /.p-contact__form -->
+          </div>
+          <!-- /.p-contact__body -->
+        </div>
+        <!-- /.l-inner -->
+      </div>
+      <!-- /.l-block -->
+    </main>
+
+    <footer class="l-footer">
+      <div class="l-footer__inner">
+        <div class="l-footer__contents">
+          <div class="l-footer__info">
+            <p class="l-footer__logo">
+              <a href="index.html">有限会社フジデン総設</a>
+            </p>
+            <!-- /.l-footer__logo -->
+          </div>
+          <!-- /.l-footer__info -->
+
+          <nav class="l-footer__nav">
+            <ul class="l-footer__menu">
+              <li><a href="policy.html">個人情報保護方針</a></li>
+              <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+            <!-- /.l-footer__menu -->
+          </nav>
+          <!-- /.l-footer__nav -->
+        </div>
+        <!-- /.l-footer__contents -->
+
+        <small class="l-footer__copy">
+          &copy;fujiden sosetsu, inc.<!-- /.l-footer__copy -->
+        </small>
+      </div>
+      <!-- /.l-footer__inner -->
+    </footer>
+    <!-- /.l-footer -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
